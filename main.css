@@ -1,0 +1,136 @@
+body {
+    background-color: #008080;
+    font-family: 'Raleway', sans-serif;  
+  }
+  nav{
+    background-color: grey; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+  }
+  nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  #brand {
+    float: left;
+  }
+  .nav-link {
+    color: darkred;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+  }
+  .nav-link:hover {
+    color: lightblue;
+    font-weight: bold; 
+  }
+  #brand .nav-link {
+    color: lightblue;
+    font-size: 14pt;
+  }
+  #brand .nav-link:hover {
+    color: darkred;
+  }
+  h1 {
+    font-size: 60pt;
+    font-family: 'Acme', sans-serif;
+  }
+  #home {
+    margin-top: 50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 30vh;
+    padding-top: 3em;
+    background: url() center 75% no-repeat fixed;
+    background-size: cover;
+  }
+  .header-tag {
+    text-align: center;
+    color: darkred;
+    text-shadow: 2px 2px 2px black;
+  }
+  h3.header-tag {
+    margin-top: -30px;
+    font-size: 18pt;
+  }
+  h2 {
+    font-family: 'Acme', sans-serif;
+    color: darkred;
+  }
+  .main {
+    text-align: center;
+  }
+  #about {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  #pic1 {
+    position: relative;
+    float: left;
+    z-index: 1;
+    border: 1px solid black;
+    width: 355px;
+    margin: 0em 70em 20em 0em;
+  }
+  #profile-pic {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0.4em;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  #pic2{  position: absolute;
+    float: center;
+    border: 1px solid black;
+    width: 220px;
+    margin: 0em 0em 0em 40em;
+    
+  }
+  
+  #pic3{  position: absolute;
+    float: center;
+    border: 1px solid black;
+    width: 358px;
+    margin: 0em 0em 0em 70em;
+    
+  }
+  
+  #pic4{
+     position: absolute;
+    float: center;
+    border: 1px solid black;
+    width: 320px;
+    margin: 30em 0em 0em 0em;
+    
+  }
+  
+  #pic5{ position: absolute;
+    float: center;
+    border: 1px solid black;
+    width: 315px;
+    margin: 30em 0em 0em 37.5em;
+    
+  }
+  
+  #pic6{ position: absolute;
+    float: center;
+    border: 1px solid black;
+    width: 320px;
+    margin: 30em 0em 0em 71.5em;
+    
+  }
+  
+  #pic5{ position: absolute;
+    float: center;
+    border: 1px solid black;
+    width: 315px;
+    margin: 30em 0em 0em 37.5em;
+    
+  }
